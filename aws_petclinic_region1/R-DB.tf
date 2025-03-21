@@ -39,7 +39,6 @@ resource "aws_db_subnet_group" "database_subnet_group" {
 }
 
 data "aws_db_instance" "db_instance_data" {   
-  endpoint = aws_db_instance.db_instance.endpoint
 } 
 
 
@@ -63,5 +62,4 @@ resource "aws_db_instance" "db_instance" {
 }
 
 data "aws_db_instance" "db_instances_data" {   
-  endpoint = aws_db_instance.db_instance.endpoint
 } 
