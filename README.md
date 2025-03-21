@@ -1,4 +1,4 @@
-# Multi-AZ & Multi-Region Deployment Using Terraform
+# Multi-AZ & Multi-Region Deployment Using Terraform Packer
 
 This project showcases how to deploy AWS infrastructure across multiple **Availability Zones (AZs)** and **Regions** using Terraform. This approach enhances **fault tolerance, high availability, and disaster recovery** while optimizing application performance across different geographical locations.
 
