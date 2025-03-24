@@ -3,4 +3,5 @@ terraform.tfstate.backup
 terraform.tfvars
 .terraform
 .terraform.lock.hcl
+terraform-provider-aws_v5.92.0_x5
 ```
