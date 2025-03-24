@@ -4,4 +4,10 @@ terraform.tfvars
 .terraform
 .terraform.lock.hcl
 terraform-provider-aws_v5.92.0_x5
+
+# Ignore AWS CLI zip file
+aws_petclinic_region1/awscliv2.zip
+
+# Ignore Terraform provider files
+aws_petclinic_region1/.terraform/
 ```
