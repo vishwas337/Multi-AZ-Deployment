@@ -63,9 +63,9 @@ resource "aws_launch_template" "ec2_asg" {
     name = "ag_iam"
   }
 user_data = base64encode(templatefile("${path.module}/UserData.sh", { 
-    mysql_url = aws_db_instance.db_instance.endpoint   
-vpc_security_group_ids = [aws_security_group.alb_security_group.id]
-}})
+    mysql_url = "replace_with_actual_mysql_endpoint",
+  }))   
+vpc_security_group_ids = ["replace_with_actual_security_group_id"]
   lifecycle {
     create_before_destroy = true
   }
